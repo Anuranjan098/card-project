@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info-card {
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    flex: 1;
+}
+
+#user-info span {
+    flex: 2;
+    color: #444;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card {
+    .card {
+        position: relative;  /* Add this */
+        border: 2px solid #181717; /* Border color */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Space inside the card */
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+    }
+}
+#edit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#edit-button:hover {
+    background-color: #0056b3;
